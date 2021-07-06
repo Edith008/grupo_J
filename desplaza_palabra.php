@@ -5,14 +5,14 @@
     <head>
         <meta charset = "utf-8">
         <meta name="viewport" content="width=device-width">
-        <title>Desplazamiento Puro</title>
+        <title>Desplazamiento Palabra clave</title>
 
 
     <head>
 
     <body>
 
-        <h1>Cifrado de Desplazamiento Puro</h1>
+        <h1>Cifrado de Desplazamiento Palabra Clave</h1>
 
 
         Operacion a realizar
