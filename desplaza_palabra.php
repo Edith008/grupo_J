@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- Programa: Desplazamiento Puro-->
+<!-- Programa: Desplazamiento Palabra-->
 <html>
 
     <head>
