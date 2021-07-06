@@ -85,6 +85,7 @@ function cifra_puro($texto,$palabra,$clave,$accion){
 if ($_POST["texto"] != ""&&$_POST["cifrado"] != ""&& $_POST["desplazamiento"] != ""&& $_POST["palabra"] != ""  ) {
 
     $_POST["texto"] = strtolower($_POST["texto"]);
+    $_POST["palabra"] = strtolower($_POST["palabra"]);
     echo "<br>";
 
     if ($_POST["cifrado"] == "cifrar") {
