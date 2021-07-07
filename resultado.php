@@ -40,7 +40,7 @@ function cifra_puro($texto,$palabra,$clave,$accion){
              $esta = false;
                 for($e = 0; $esta == false ; $e++){
                     if($texto[$i] == $abc[$e]){
-                      $e = $e + $clave;
+                      $e = $e - $clave;
 
                         if($e > 26){
                             $e = $e - 27;
@@ -62,7 +62,7 @@ function cifra_puro($texto,$palabra,$clave,$accion){
                  $esta = false;
                     for($e = 0; $esta == false ; $e++){
                         if($texto[$i] == $n_abc[$e]){
-                          $e = $e + $clave;
+                          $e = $e - $clave;
 
                             if($e > 26){
                                 $e = $e - 27;
